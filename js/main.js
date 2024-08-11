@@ -93,18 +93,7 @@
     
     
     
-    // Portfolio filter
-    var portfolioIsotope = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-    });
-
-    $('#portfolio-filter li').on('click', function () {
-        $("#portfolio-filter li").removeClass('filter-active');
-        $(this).addClass('filter-active');
-        console.log($(this).data('filter'))
-        portfolioIsotope.isotope({filter: $(this).data('filter')});
-    });
+    
     
 })(jQuery);
 

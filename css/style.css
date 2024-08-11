@@ -845,10 +845,6 @@ a:focus {
     border-color: #EF233C;
 }
 
-.portfolio-container {
-    height: auto !important;
-}
-
 .portfolio .portfolio-item {
     position: relative;
 }
