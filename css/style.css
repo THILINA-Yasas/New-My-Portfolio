@@ -845,6 +845,10 @@ a:focus {
     border-color: #EF233C;
 }
 
+.portfolio-container {
+    height: auto !important;
+}
+
 .portfolio .portfolio-item {
     position: relative;
 }
@@ -857,6 +861,7 @@ a:focus {
 .portfolio .portfolio-img {
     position: relative;
     overflow: hidden;
+    height: 270px;
 }
 
 .portfolio .portfolio-img img {
@@ -867,6 +872,7 @@ a:focus {
     transform: scale(1.1);
     transition: .5s;
 }
+
 
 .portfolio .portfolio-item:hover img {
     margin-left: 15px;
