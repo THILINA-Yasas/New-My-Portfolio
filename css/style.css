@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #797979;
+    color: #474747;
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,11 +13,11 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #414141;
+    color: #c90000;
 }
 
 a {
-    color: #313131;
+    color: #212121;
     transition: .3s;
 }
 
@@ -1310,7 +1310,7 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
+    background: url(../img/ccc.jpg) left center no-repeat;
     background-size: contain;
 }
 
