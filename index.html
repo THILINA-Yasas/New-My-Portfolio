@@ -35,23 +35,23 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-                        <a href="#experience" class="nav-item nav-link">Experience</a>
-                        <a href="#portfolio" class="nav-item nav-link">Projects</a>
-                        <a href="#price" class="nav-item nav-link">Price</a>
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        <a href="#team" class="nav-item nav-link">Team</a>
-                        <a href="#blog" class="nav-item nav-link">Blog</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
-                    </div>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#service" class="nav-item nav-link">Service</a>
+                    <a href="#experience" class="nav-item nav-link">Experience</a>
+                    <a href="#portfolio" class="nav-item nav-link">Projects</a>
+                    <a href="#price" class="nav-item nav-link">Price</a>
+                    <a href="#review" class="nav-item nav-link">Review</a>
+                    <a href="#team" class="nav-item nav-link">Team</a>
+                    <a href="#blog" class="nav-item nav-link">Blog</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </div>
-        <!-- Nav Bar End -->
+    </div>
+    <!-- Nav Bar End -->
 
 
     <!-- Hero Start -->
@@ -409,23 +409,24 @@
                         </div>
                     </div>
                 </div>
+                <div id="lightbox" class="lightbox">
+                    <div class="lb-closeContainer"><a class="lb-close">dfdfdf</a></div>
+                    <div class="image-grid">
+                        <img class="img01" src="img/portfolio-1.jpg" alt="Portfolio Image 1">
+                        <img class="img02" src="img/portfolio-2.jpg" alt="Portfolio Image 2">
+                        <img class="img03" src="img/portfolio-3.jpg" alt="Portfolio Image 3">
+                        <img class="img04" src="img/portfolio-4.jpg" alt="Portfolio Image 4">
+                    </div>
+                </div>
             </div>
             <!-- Portfolio End -->
 
-              <!-- Portfolio view Image Start -->
-              <div class="lightboxOverlay" id="lightboxOverlay"></div>
-              <div id="lightbox" class="lightbox">
-                <a class="lb-close"></a>
-                  <div class="image-grid">
-                      <img class="img01" src="img/portfolio-1.jpg" alt="Portfolio Image 1">
-                      <img class="img02" src="img/portfolio-2.jpg" alt="Portfolio Image 2">
-                      <img class="img03" src="img/portfolio-3.jpg" alt="Portfolio Image 3">
-                      <img class="img04" src="img/portfolio-4.jpg" alt="Portfolio Image 4">
-                  </div>
-              </div>
-              <!-- Portfolio view Image End -->
+            <!-- Portfolio view Image Start -->
+            <div class="lightboxOverlay" id="lightboxOverlay"></div>
 
-           
+            <!-- Portfolio view Image End -->
+
+
 
             <!-- Banner Start -->
             <div class="banner wow zoomIn" data-wow-delay="0.1s">
@@ -597,203 +598,223 @@
             <!-- Testimonial End -->
 
 
-        <!-- Team Start -->
-        <div class="team" id="team">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>SLT Mobitel Team</p>
-                    <h2>Currently My Team Members</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/mb.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Akila Sugathadasa</h2>
-                                <h4>UI UX Developer</h4>
-                                <p>
-                                    Akila is Leader in UI UX Team
-                                </p>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/thamaras.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Thamara Liyanage</h2>
-                                <h4>UI UX Developer</h4>
-                                <p>
-                                    Thamara is senior UI UX Developer in team.
-                                </p>
-                               
-                            </div>
-                        </div>
-                    </div>
-                   
-            </div>
-        </div>
-        <!-- Team End -->
-        
-        
-        <!-- Contact Start -->
-        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
-            <div class="container-fluid">
+            <!-- Team Start -->
+            <div class="team" id="team">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-8">
-                            <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                    <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                        <p>SLT Mobitel Team</p>
+                        <h2>Currently My Team Members</h2>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-
-
-        <!-- Blog Start -->
-        <div class="blog" id="blog">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>From Blog</p>
-                    <h2>Life Experience</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="blog-img">
-                                <img src="img/n.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-text">
-                                <h2>Team Of Mobitel HQ</h2>
-                                <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Web Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>5</p>
+                    <div class="row">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/mb.jpg" alt="Image">
                                 </div>
-                                <p>
-                                    My internship at Mobitel HQ as a UI/UX Designer offers a fantastic launchpad for my career. I'll gain hands-on
-                                    experience crafting user-centric interfaces for their products and services. Collaborating with a talented team of 50+
-                                    professionals, I'll learn industry best practices and contribute to real-world projects. This internship will build a
-                                    strong foundation for my portfolio.
-                                </p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="blog-img">
-                                <img src="img/batch.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-text">
-                                <h2>Batch of University</h2>
-                                <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Apps Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>10</p>
+                                <div class="team-text">
+                                    <h2>Akila Sugathadasa</h2>
+                                    <h4>UI UX Developer</h4>
+                                    <p>
+                                        Akila is Leader in UI UX Team
+                                    </p>
+
                                 </div>
-                                <p>
-                                Studying at SLTC Research University with my best friends sounds like a fantastic experience. The support and
-                                camaraderie my shared likely made navigating university life much easier and more enjoyable. Helping each other through
-                                challenges, celebrating successes, and creating lasting memories together are invaluable aspects of the university
-                                journey. These friendships will undoubtedly continue to enrich my lives long after graduation.
-                                </p>
-                                
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/thamaras.jpg" alt="Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Thamara Liyanage</h2>
+                                    <h4>UI UX Developer</h4>
+                                    <p>
+                                        Thamara is senior UI UX Developer in team.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Team End -->
+
+
+                <!-- Contact Start -->
+                <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+                    <div class="container-fluid">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-8">
+                                    <div class="contact-form">
+                                        <div id="success"></div>
+                                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                            <div class="control-group">
+                                                <input type="text" class="form-control" id="name"
+                                                    placeholder="Your Name" required="required"
+                                                    data-validation-required-message="Please enter your name" />
+                                                <p class="help-block"></p>
+                                            </div>
+                                            <div class="control-group">
+                                                <input type="email" class="form-control" id="email"
+                                                    placeholder="Your Email" required="required"
+                                                    data-validation-required-message="Please enter your email" />
+                                                <p class="help-block"></p>
+                                            </div>
+                                            <div class="control-group">
+                                                <input type="text" class="form-control" id="subject"
+                                                    placeholder="Subject" required="required"
+                                                    data-validation-required-message="Please enter a subject" />
+                                                <p class="help-block"></p>
+                                            </div>
+                                            <div class="control-group">
+                                                <textarea class="form-control" id="message" placeholder="Message"
+                                                    required="required"
+                                                    data-validation-required-message="Please enter your message"></textarea>
+                                                <p class="help-block"></p>
+                                            </div>
+                                            <div>
+                                                <button class="btn" type="submit" id="sendMessageButton">Send
+                                                    Message</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Blog End -->
+                <!-- Contact End -->
 
 
-        <!-- Footer Start -->
-        <div class="footer wow fadeIn" data-wow-delay="0.3s">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="footer-info">
-                        <h2>Thilina Rathnayake</h2>
-                        <h3>Sri Lanka</h3>
-                        <div class="footer-menu">
-                            <p>+9471 99 80 173</p>
-                            <p>thilinayasasr@gmail.com</p>
+                <!-- Blog Start -->
+                <div class="blog" id="blog">
+                    <div class="container">
+                        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                            <p>From Blog</p>
+                            <h2>Life Experience</h2>
                         </div>
-                        <div class="footer-social">
-                            
-                            <a href="https://web.facebook.com/profile.php?id=100012773012595"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/thilina__yasas/"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/thilina-rathnayake-b42225235/"><i class="fab fa-linkedin-in"></i></a>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="blog-img">
+                                        <img src="img/n.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h2>Team Of Mobitel HQ</h2>
+                                        <div class="blog-meta">
+                                            <p><i class="far fa-user"></i>Admin</p>
+                                            <p><i class="far fa-list-alt"></i>Web Design</p>
+                                            <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                            <p><i class="far fa-comments"></i>5</p>
+                                        </div>
+                                        <p>
+                                            My internship at Mobitel HQ as a UI/UX Designer offers a fantastic launchpad
+                                            for my career. I'll gain hands-on
+                                            experience crafting user-centric interfaces for their products and services.
+                                            Collaborating with a talented team of 50+
+                                            professionals, I'll learn industry best practices and contribute to
+                                            real-world projects. This internship will build a
+                                            strong foundation for my portfolio.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="blog-img">
+                                        <img src="img/batch.jpg" alt="Blog">
+                                    </div>
+                                    <div class="blog-text">
+                                        <h2>Batch of University</h2>
+                                        <div class="blog-meta">
+                                            <p><i class="far fa-user"></i>Admin</p>
+                                            <p><i class="far fa-list-alt"></i>Apps Design</p>
+                                            <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                            <p><i class="far fa-comments"></i>10</p>
+                                        </div>
+                                        <p>
+                                            Studying at SLTC Research University with my best friends sounds like a
+                                            fantastic experience. The support and
+                                            camaraderie my shared likely made navigating university life much easier and
+                                            more enjoyable. Helping each other through
+                                            challenges, celebrating successes, and creating lasting memories together
+                                            are invaluable aspects of the university
+                                            journey. These friendships will undoubtedly continue to enrich my lives long
+                                            after graduation.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="container copyright">
-                    <p>&copy; <a href="#">My Portfolio</a>, All Right Reserved | Designed By Thilina  Rathnayake</p>
+                <!-- Blog End -->
+
+
+                <!-- Footer Start -->
+                <div class="footer wow fadeIn" data-wow-delay="0.3s">
+                    <div class="container-fluid">
+                        <div class="container">
+                            <div class="footer-info">
+                                <h2>Thilina Rathnayake</h2>
+                                <h3>Sri Lanka</h3>
+                                <div class="footer-menu">
+                                    <p>+9471 99 80 173</p>
+                                    <p>thilinayasasr@gmail.com</p>
+                                </div>
+                                <div class="footer-social">
+
+                                    <a href="https://web.facebook.com/profile.php?id=100012773012595"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/thilina__yasas/"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/thilina-rathnayake-b42225235/"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container copyright">
+                            <p>&copy; <a href="#">My Portfolio</a>, All Right Reserved | Designed By Thilina Rathnayake
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-        
-        
-        <!-- Back to top button -->
-        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
-        
-        <!-- Pre Loader -->
-        <div id="loader" class="show">
-            <div class="loader"></div>
-        </div>
+                <!-- Footer End -->
 
 
-            <!-- JavaScript Libraries -->
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-            <script src="lib/easing/easing.min.js"></script>
-            <script src="lib/wow/wow.min.js"></script>
-            <script src="lib/waypoints/waypoints.min.js"></script>
-            <script src="lib/typed/typed.min.js"></script>
-            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-            <script src="lib/isotope/isotope.pkgd.min.js"></script>
-            <script src="lib/lightbox/js/lightbox.js"></script>
+                <!-- Back to top button -->
+                <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-            <!-- Contact Javascript File -->
-            <script src="mail/jqBootstrapValidation.min.js"></script>
-            <script src="mail/contact.js"></script>
 
-            <!-- Template Javascript -->
-            <script src="js/main.js"></script>
+                <!-- Pre Loader -->
+                <div id="loader" class="show">
+                    <div class="loader"></div>
+                </div>
+
+
+                <!-- JavaScript Libraries -->
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+                <script src="lib/easing/easing.min.js"></script>
+                <script src="lib/wow/wow.min.js"></script>
+                <script src="lib/waypoints/waypoints.min.js"></script>
+                <script src="lib/typed/typed.min.js"></script>
+                <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+                <script src="lib/isotope/isotope.pkgd.min.js"></script>
+                <script src="lib/lightbox/js/lightbox.js"></script>
+
+                <!-- Contact Javascript File -->
+                <script src="mail/jqBootstrapValidation.min.js"></script>
+                <script src="mail/contact.js"></script>
+
+                <!-- Template Javascript -->
+                <script src="js/main.js"></script>
 </body>
 
 </html>
